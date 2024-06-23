@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="57.239" tests="17" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\eclipse-workspace\PlaywrightWs\opencart-ui-automation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\eclipse-workspace\PlaywrightWs\opencart-ui-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\rames\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\maven\apache-maven-3.9.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\maven\apache-maven-3.9.6\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32;C:\ProgramData\chocolatey\lib\terraform\tools;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Git\cmd;C:\Users\rames\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\webdriverInfo\Appium\android\cmdline-tools\latest\bin;C:\webdriverInfo\Appium\AndroidSDKTools\build-tools;C:\webdriverInfo\Appium\AndroidSDKTools\platform-tools;C:\Program Files\k6\;C:\Users\rames\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\rames\AppData\Local\Programs\Python\Python311\;C:\Users\rames\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\rames\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\Aqua 233.14475.33\bin;;C:\Users\rames\AppData\Roaming\npm;C:\Users\rames\AppData\Local\Programs\Azure Data Studio\bin;."/>
+    <property name="maven.conf" value="C:\maven\apache-maven-3.9.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\maven\apache-maven-3.9.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\rames"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="rames"/>
+    <property name="java.class.path" value="C:\maven\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -U"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\maven\apache-maven-3.9.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="homePageTitleTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="0.048">
+    <failure message="expected [Your Store] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Your Store] but found []
+	at com.testcases.TS_01_Verify_Opencart_HomePageTests.homePageTitleTest(TS_01_Verify_Opencart_HomePageTests.java:16)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 7.10.2 by Cédric Beust (cedric@beust.com)
+...
+
+&amp#27;[33m[2024-Jun-22 19:37:28.615 MST]&amp#27;[m &amp#27;[37m[Thread ID: 26]&amp#27;[m &amp#27;[94m[PlaywrightFactory.getBrowser]&amp#27;[m &amp#27;[32m[INFO]&amp#27;[m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+&amp#27;[33m[2024-Jun-22 19:37:28.930 MST]&amp#27;[m &amp#27;[37m[Thread ID: 25]&amp#27;[m &amp#27;[94m[PlaywrightFactory.getBrowser]&amp#27;[m &amp#27;[32m[INFO]&amp#27;[m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+&amp#27;[33m[2024-Jun-22 19:37:28.974 MST]&amp#27;[m &amp#27;[37m[Thread ID: 26]&amp#27;[m &amp#27;[94m[PlaywrightFactory.getBrowserContext]&amp#27;[m &amp#27;[32m[INFO]&amp#27;[m Browser Context - Viewport Width '1280' and Height '720'
+&amp#27;[33m[2024-Jun-22 19:37:29.297 MST]&amp#27;[m &amp#27;[37m[Thread ID: 27]&amp#27;[m &amp#27;[94m[PlaywrightFactory.getBrowser]&amp#27;[m &amp#27;[32m[INFO]&amp#27;[m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+&amp#27;[33m[2024-Jun-22 19:37:29.349 MST]&amp#27;[m &amp#27;[37m[Thread ID: 25]&amp#27;[m &amp#27;[94m[PlaywrightFactory.getBrowserContext]&amp#27;[m &amp#27;[32m[INFO]&amp#27;[m Browser Context - Viewport Width '1280' and Height '720'
+&amp#27;[33m[2024-Jun-22 19:37:29.645 MST]&amp#27;[m &amp#27;[37m[Thread ID: 27]&amp#27;[m &amp#27;[94m[PlaywrightFactory.getBrowserContext]&amp#27;[m &amp#27;[32m[INFO]&amp#27;[m Browser Context - Viewport Width '1280' and Height '720'
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="homePageURLTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="0.001"/>
+  <testcase name="loginPageTitleTest" classname="com.testcases.TS_02_Verify_Opencart_LoginPageTests" time="0.004"/>
+  <testcase name="registerNewAccountTest" classname="com.testcases.TS_03_Verify_Opencart_RegisterPageTests" time="2.017"/>
+  <testcase name="navigateToRegisterPageTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="1.3"/>
+  <testcase name="loginTest" classname="com.testcases.TS_02_Verify_Opencart_LoginPageTests" time="2.598"/>
+  <testcase name="verifyOpenCartLogoTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="0.072"/>
+  <testcase name="featuredSectioncardsCountTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="0.037"/>
+  <testcase name="navigateToForgotPasswordPageTest" classname="com.testcases.TS_02_Verify_Opencart_LoginPageTests" time="0.029"/>
+  <testcase name="navigateToLoginPageTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="3.142"/>
+  <testcase name="navigateToRegisterPageTest" classname="com.testcases.TS_02_Verify_Opencart_LoginPageTests" time="1.628"/>
+  <testcase name="searchTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="1.923"/>
+  <testcase name="searchTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="0.677"/>
+  <testcase name="searchTest" classname="com.testcases.TS_01_Verify_Opencart_HomePageTests" time="0.954"/>
+  <testcase name="verifyLoginBreadCrumbExists" classname="com.testcases.TS_02_Verify_Opencart_LoginPageTests" time="0.009"/>
+  <testcase name="verifyNewCustomerHeaderExists" classname="com.testcases.TS_02_Verify_Opencart_LoginPageTests" time="0.015"/>
+  <testcase name="verifyReturningCustomerHeaderExists" classname="com.testcases.TS_02_Verify_Opencart_LoginPageTests" time="0.01"/>
+</testsuite>
