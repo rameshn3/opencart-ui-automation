@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-22T19:05:13 MST" name="Default suite" finished-at="2024-06-22T19:05:25 MST" duration-ms="12375">
+    <groups>
+    </groups>
+    <test started-at="2024-06-22T19:05:13 MST" name="Default test" finished-at="2024-06-22T19:05:25 MST" duration-ms="12375">
+      <class name="com.testcases.TS_03_Verify_Opencart_RegisterPageTests">
+        <test-method is-config="true" signature="setUpBeforeTestSuite()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484]" started-at="2024-06-22T19:05:12 MST" name="setUpBeforeTestSuite" finished-at="2024-06-22T19:05:13 MST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestSuite -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484]" started-at="2024-06-22T19:05:13 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:05:18 MST" duration-ms="5540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_03_Verify_Opencart_RegisterPageTests.registerNewAccountTest()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484]" started-at="2024-06-22T19:05:18 MST" name="setUp" finished-at="2024-06-22T19:05:20 MST" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerNewAccountTest()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484]" started-at="2024-06-22T19:05:20 MST" name="registerNewAccountTest" finished-at="2024-06-22T19:05:24 MST" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewAccountTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484]" started-at="2024-06-22T19:05:24 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:05:25 MST" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerNewAccountTest status=SUCCESS method=TS_03_Verify_Opencart_RegisterPageTests.registerNewAccountTest()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="tearDownAfterSuite()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@128d2484]" started-at="2024-06-22T19:05:25 MST" name="tearDownAfterSuite" finished-at="2024-06-22T19:05:25 MST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterSuite -->
+      </class> <!-- com.testcases.TS_03_Verify_Opencart_RegisterPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

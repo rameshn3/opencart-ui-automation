@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Opencart_Test_Automation" class="navigator-link">
+              <span class="suite-name border-failed">Opencart Test Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Opencart_Test_Automation" class="navigator-link ">
+                    <span>C:\eclipse-workspace\PlaywrightWs\opencart-ui-automation\src\test\resources\testrunners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Opencart_Test_Automation" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Opencart_Test_Automation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Opencart_Test_Automation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Opencart_Test_Automation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Opencart_Test_Automation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Opencart_Test_Automation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Opencart_Test_Automation" class="hide-methods failed suite-Opencart_Test_Automation"> (hide)</a> <!-- hide-methods failed suite-Opencart_Test_Automation -->
+                      <a href="#" panel-name="suite-Opencart_Test_Automation" class="show-methods failed suite-Opencart_Test_Automation"> (show)</a> <!-- show-methods failed suite-Opencart_Test_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Opencart_Test_Automation">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Opencart_Test_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Opencart_Test_Automation" class="hide-methods passed suite-Opencart_Test_Automation"> (hide)</a> <!-- hide-methods passed suite-Opencart_Test_Automation -->
+                      <a href="#" panel-name="suite-Opencart_Test_Automation" class="show-methods passed suite-Opencart_Test_Automation"> (show)</a> <!-- show-methods passed suite-Opencart_Test_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Opencart_Test_Automation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="featuredSectioncardsCountTest">featuredSectioncardsCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="homePageURLTest">homePageURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_02_Verify_Opencart_LoginPageTests" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_02_Verify_Opencart_LoginPageTests" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_02_Verify_Opencart_LoginPageTests" class="method navigator-link" hash-for-method="navigateToForgotPasswordPageTest">navigateToForgotPasswordPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="navigateToLoginPageTest">navigateToLoginPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="navigateToRegisterPageTest">navigateToRegisterPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_02_Verify_Opencart_LoginPageTests" class="method navigator-link" hash-for-method="navigateToRegisterPageTest">navigateToRegisterPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_03_Verify_Opencart_RegisterPageTests" class="method navigator-link" hash-for-method="registerNewAccountTest">registerNewAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="searchTest(Samsung)">searchTest(Samsung)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="searchTest(iMac)">searchTest(iMac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="searchTest(Macbook)">searchTest(Macbook)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_02_Verify_Opencart_LoginPageTests" class="method navigator-link" hash-for-method="verifyLoginBreadCrumbExists">verifyLoginBreadCrumbExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_02_Verify_Opencart_LoginPageTests" class="method navigator-link" hash-for-method="verifyNewCustomerHeaderExists">verifyNewCustomerHeaderExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_01_Verify_Opencart_HomePageTests" class="method navigator-link" hash-for-method="verifyOpenCartLogoTest">verifyOpenCartLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_Test_Automation" title="com.testcases.TS_02_Verify_Opencart_LoginPageTests" class="method navigator-link" hash-for-method="verifyReturningCustomerHeaderExists">verifyReturningCustomerHeaderExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Opencart_Test_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Opencart_Test_Automation" class="panel Opencart_Test_Automation">
+          <div class="suite-Opencart_Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Your Store] but found []
+	at com.testcases.TS_01_Verify_Opencart_HomePageTests.homePageTitleTest(TS_01_Verify_Opencart_HomePageTests.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_Test_Automation-class-failed -->
+          <div class="suite-Opencart_Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="featuredSectioncardsCountTest">
+                  </a> <!-- featuredSectioncardsCountTest -->
+                  <span class="method-name">featuredSectioncardsCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageURLTest">
+                  </a> <!-- homePageURLTest -->
+                  <span class="method-name">homePageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToLoginPageTest">
+                  </a> <!-- navigateToLoginPageTest -->
+                  <span class="method-name">navigateToLoginPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToRegisterPageTest">
+                  </a> <!-- navigateToRegisterPageTest -->
+                  <span class="method-name">navigateToRegisterPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Samsung)">
+                  </a> <!-- searchTest(Samsung) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Samsung)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(iMac)">
+                  </a> <!-- searchTest(iMac) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(iMac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Macbook)">
+                  </a> <!-- searchTest(Macbook) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Macbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOpenCartLogoTest">
+                  </a> <!-- verifyOpenCartLogoTest -->
+                  <span class="method-name">verifyOpenCartLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_Test_Automation-class-passed -->
+          <div class="suite-Opencart_Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.TS_03_Verify_Opencart_RegisterPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerNewAccountTest">
+                  </a> <!-- registerNewAccountTest -->
+                  <span class="method-name">registerNewAccountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_Test_Automation-class-passed -->
+          <div class="suite-Opencart_Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToForgotPasswordPageTest">
+                  </a> <!-- navigateToForgotPasswordPageTest -->
+                  <span class="method-name">navigateToForgotPasswordPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToRegisterPageTest">
+                  </a> <!-- navigateToRegisterPageTest -->
+                  <span class="method-name">navigateToRegisterPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginBreadCrumbExists">
+                  </a> <!-- verifyLoginBreadCrumbExists -->
+                  <span class="method-name">verifyLoginBreadCrumbExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNewCustomerHeaderExists">
+                  </a> <!-- verifyNewCustomerHeaderExists -->
+                  <span class="method-name">verifyNewCustomerHeaderExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReturningCustomerHeaderExists">
+                  </a> <!-- verifyReturningCustomerHeaderExists -->
+                  <span class="method-name">verifyReturningCustomerHeaderExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_Test_Automation-class-passed -->
+        </div> <!-- panel Opencart_Test_Automation -->
+        <div panel-name="test-xml-Opencart_Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse-workspace\PlaywrightWs\opencart-ui-automation\src\test\resources\testrunners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Opencart Test Automation&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Opencart Homepage Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.TS_01_Verify_Opencart_HomePageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Opencart Homepage Test --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Opencart Loginpage Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.TS_02_Verify_Opencart_LoginPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Opencart Loginpage Test --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Opencart Registerpage Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.TS_03_Verify_Opencart_RegisterPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Opencart Registerpage Test --&gt;
+&lt;/suite&gt; &lt;!-- Opencart Test Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Opencart_Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Opencart Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Opencart Homepage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Opencart Loginpage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Opencart Registerpage Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Opencart_Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Opencart Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Opencart_Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Opencart Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Opencart_Test_Automation');
+function tableData_Opencart_Test_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registerNewAccountTest')
+data.setCell(0, 2, 'com.testcases.TS_03_Verify_Opencart_RegisterPageTests')
+data.setCell(0, 3, 5366);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'navigateToRegisterPageTest')
+data.setCell(1, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(1, 3, 4767);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigateToRegisterPageTest')
+data.setCell(2, 2, 'com.testcases.TS_02_Verify_Opencart_LoginPageTests')
+data.setCell(2, 3, 3496);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigateToLoginPageTest')
+data.setCell(3, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(3, 3, 3142);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigateToForgotPasswordPageTest')
+data.setCell(4, 2, 'com.testcases.TS_02_Verify_Opencart_LoginPageTests')
+data.setCell(4, 3, 2978);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'com.testcases.TS_02_Verify_Opencart_LoginPageTests')
+data.setCell(5, 3, 2599);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchTest')
+data.setCell(6, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(6, 3, 1996);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchTest')
+data.setCell(7, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(7, 3, 1924);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchTest')
+data.setCell(8, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(8, 3, 1604);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyOpenCartLogoTest')
+data.setCell(9, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(9, 3, 73);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'featuredSectioncardsCountTest')
+data.setCell(10, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(10, 3, 38);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'homePageTitleTest')
+data.setCell(11, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(11, 3, 36);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyNewCustomerHeaderExists')
+data.setCell(12, 2, 'com.testcases.TS_02_Verify_Opencart_LoginPageTests')
+data.setCell(12, 3, 15);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyReturningCustomerHeaderExists')
+data.setCell(13, 2, 'com.testcases.TS_02_Verify_Opencart_LoginPageTests')
+data.setCell(13, 3, 11);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLoginBreadCrumbExists')
+data.setCell(14, 2, 'com.testcases.TS_02_Verify_Opencart_LoginPageTests')
+data.setCell(14, 3, 9);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginPageTitleTest')
+data.setCell(15, 2, 'com.testcases.TS_02_Verify_Opencart_LoginPageTests')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'homePageURLTest')
+data.setCell(16, 2, 'com.testcases.TS_01_Verify_Opencart_HomePageTests')
+data.setCell(16, 3, 1);
+window.suiteTableData['Opencart_Test_Automation']= { tableData: data, tableDiv: 'times-div-Opencart_Test_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-Opencart_Test_Automation">
+              </div> <!-- times-div-Opencart_Test_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Opencart_Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Opencart Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Opencart_Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Opencart_Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_03_Verify_Opencart_RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpBeforeTestSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.homePageTitleTest(...)</span>
+                <span class="method-start">1789 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.loginPageTitleTes...)</span>
+                <span class="method-start">1790 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_03_Verify_Opencart_RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_03_Verify_Opencart_RegisterPageTests.registerNewAcc...)</span>
+                <span class="method-start">1790 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">8019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=homePageTitleTest status=FAILURE method=TS_01_Verify_Opencart_HomePageTests.homePag...)</span>
+                <span class="method-start">8065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.homePageURLTest()[...)</span>
+                <span class="method-start">9080 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13186 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_03_Verify_Opencart_RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13200 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageURLTest</span>
+                <span class="method-start">14379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=homePageURLTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.homePageU...)</span>
+                <span class="method-start">14381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.navigateToRegister...)</span>
+                <span class="method-start">14598 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_03_Verify_Opencart_RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">registerNewAccountTest</span>
+                <span class="method-start">15101 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">15114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=loginPageTitleTest status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.login...)</span>
+                <span class="method-start">15118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.loginTest()[pri:0...)</span>
+                <span class="method-start">15310 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateToRegisterPageTest</span>
+                <span class="method-start">18450 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19473 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_03_Verify_Opencart_RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=registerNewAccountTest status=SUCCESS method=TS_03_Verify_Opencart_RegisterPageTest...)</span>
+                <span class="method-start">20468 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">21917 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=navigateToRegisterPageTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTest...)</span>
+                <span class="method-start">23218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.verifyOpenCartLogo...)</span>
+                <span class="method-start">23340 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=loginTest status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.loginTest()[pr...)</span>
+                <span class="method-start">24516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.navigateToForgotP...)</span>
+                <span class="method-start">24700 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyOpenCartLogoTest</span>
+                <span class="method-start">26969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=verifyOpenCartLogoTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.ve...)</span>
+                <span class="method-start">27043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.featuredSectioncar...)</span>
+                <span class="method-start">27308 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToForgotPasswordPageTest</span>
+                <span class="method-start">30298 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">featuredSectioncardsCountTest</span>
+                <span class="method-start">30462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=featuredSectioncardsCountTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageT...)</span>
+                <span class="method-start">30500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.navigateToLoginPag...)</span>
+                <span class="method-start">30681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToLoginPageTest</span>
+                <span class="method-start">33247 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=navigateToForgotPasswordPageTest status=SUCCESS method=TS_02_Verify_Opencart_LoginP...)</span>
+                <span class="method-start">33276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.navigateToRegiste...)</span>
+                <span class="method-start">33348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36012 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=navigateToLoginPageTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.n...)</span>
+                <span class="method-start">36389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.la...)</span>
+                <span class="method-start">36561 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigateToRegisterPageTest</span>
+                <span class="method-start">37733 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Macbook)</span>
+                <span class="method-start">39600 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=navigateToRegisterPageTest status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTes...)</span>
+                <span class="method-start">41229 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.verifyLoginBreadC...)</span>
+                <span class="method-start">41414 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=searchTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.searchTest(jav...)</span>
+                <span class="method-start">41524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.la...)</span>
+                <span class="method-start">41700 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43985 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(iMac)</span>
+                <span class="method-start">44547 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginBreadCrumbExists</span>
+                <span class="method-start">45474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=verifyLoginBreadCrumbExists status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTe...)</span>
+                <span class="method-start">45484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.verifyNewCustomer...)</span>
+                <span class="method-start">45650 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=searchTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.searchTest(jav...)</span>
+                <span class="method-start">46153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.la...)</span>
+                <span class="method-start">46348 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49010 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Samsung)</span>
+                <span class="method-start">49746 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyNewCustomerHeaderExists</span>
+                <span class="method-start">50787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=verifyNewCustomerHeaderExists status=SUCCESS method=TS_02_Verify_Opencart_LoginPage...)</span>
+                <span class="method-start">50803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchPlaywrightAndUrl([TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.verifyReturningCu...)</span>
+                <span class="method-start">51010 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_01_Verify_Opencart_HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=searchTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.searchTest(jav...)</span>
+                <span class="method-start">51742 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_02_Verify_Opencart_LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyReturningCustomerHeaderExists</span>
+                <span class="method-start">56028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closePageAndPwServer([TestResult name=verifyReturningCustomerHeaderExists status=SUCCESS method=TS_02_Verify_Opencart_Log...)</span>
+                <span class="method-start">56039 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.TS_03_Verify_Opencart_RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownAfterSuite</span>
+                <span class="method-start">56257 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

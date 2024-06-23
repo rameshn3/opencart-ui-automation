@@ -1,0 +1,54 @@
+[33m[2024-Jun-22 19:37:28.615 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:28.930 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:28.974 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:29.297 MST][m [37m[Thread ID: 27][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:29.349 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:29.645 MST][m [37m[Thread ID: 27][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:30.881 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.takeScreenshot][m [36m[DEBUG][m Screenshot is taken and saved at the location  C:\eclipse-workspace\PlaywrightWs\opencart-ui-automation/test-results/screenshots/1719110250752.png
+[33m[2024-Jun-22 19:37:30.902 MST][m [37m[Thread ID: 25][m [94m[BaseTest.closePageAndPwServer][m [33m[WARN][m The test is not passed. Please refer to the previous step
+[33m[2024-Jun-22 19:37:32.650 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:33.003 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:38.169 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:38.373 MST][m [37m[Thread ID: 27][m [94m[RegisterPage.selectSubScribe][m [32m[INFO][m select newsletter subscription value
+[33m[2024-Jun-22 19:37:38.374 MST][m [37m[Thread ID: 27][m [94m[RegisterPage.selectSubScribe][m [32m[INFO][m select newsletter subscription value -Yes
+[33m[2024-Jun-22 19:37:38.454 MST][m [37m[Thread ID: 27][m [94m[RegisterPage.checkAgreeCheckbox][m [32m[INFO][m check agree checkbox
+[33m[2024-Jun-22 19:37:38.535 MST][m [37m[Thread ID: 27][m [94m[RegisterPage.clickContinueBtn][m [32m[INFO][m Click on Continue button
+[33m[2024-Jun-22 19:37:38.717 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:39.390 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:39.728 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:44.605 MST][m [37m[Thread ID: 26][m [94m[LoginPage.doLogin][m [32m[INFO][m Login to the application using usernamerameshqaonline@gmail.com
+[33m[2024-Jun-22 19:37:46.899 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:47.111 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:47.199 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.takeScreenshot][m [36m[DEBUG][m Screenshot is taken and saved at the location  C:\eclipse-workspace\PlaywrightWs\opencart-ui-automation/test-results/screenshots/1719110267048.png
+[33m[2024-Jun-22 19:37:47.200 MST][m [37m[Thread ID: 26][m [94m[LoginPage.doLogin][m [33m[WARN][m User login to the application is unsuccessful
+[33m[2024-Jun-22 19:37:48.250 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:48.480 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:49.654 MST][m [37m[Thread ID: 25][m [94m[HomePage.isOpenCartLogoExists][m [32m[INFO][m checking the logo exists or not
+[33m[2024-Jun-22 19:37:50.820 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:51.093 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:52.984 MST][m [37m[Thread ID: 26][m [94m[LoginPage.navigateToForgotPasswordPage][m [32m[INFO][m click on forgotPasswordLink in login page 
+[33m[2024-Jun-22 19:37:53.148 MST][m [37m[Thread ID: 25][m [94m[HomePage.getFeaturedSectionCardsCount][m [32m[INFO][m checking featured section cards count
+[33m[2024-Jun-22 19:37:54.106 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:54.292 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:56.781 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:37:56.976 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:37:57.582 MST][m [37m[Thread ID: 25][m [94m[LoginPage.clickLoginHomeIcon][m [32m[INFO][m click on Login home icon in breadcrumb
+[33m[2024-Jun-22 19:37:59.845 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:38:00.168 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:38:00.419 MST][m [37m[Thread ID: 26][m [94m[LoginPage.navigateToRegisterPage][m [32m[INFO][m click on continue button in login page under newCustomer section
+[33m[2024-Jun-22 19:38:04.202 MST][m [37m[Thread ID: 25][m [94m[HomePage.searchProduct][m [36m[DEBUG][m search of Search - Macbook product is sucessful
+[33m[2024-Jun-22 19:38:04.208 MST][m [37m[Thread ID: 25][m [94m[HomePage.searchProduct][m [36m[DEBUG][m search of Macbook product is sucessful
+[33m[2024-Jun-22 19:38:04.659 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:38:04.844 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:38:05.073 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:38:05.270 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:38:08.829 MST][m [37m[Thread ID: 25][m [94m[HomePage.searchProduct][m [36m[DEBUG][m search of Search - iMac product is sucessful
+[33m[2024-Jun-22 19:38:08.835 MST][m [37m[Thread ID: 25][m [94m[HomePage.searchProduct][m [36m[DEBUG][m search of iMac product is sucessful
+[33m[2024-Jun-22 19:38:09.133 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:38:09.371 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:38:09.825 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:38:10.066 MST][m [37m[Thread ID: 25][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'
+[33m[2024-Jun-22 19:38:14.394 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowser][m [32m[INFO][m Browser Selected for Test Execution 'chrome' with headless mode as 'true'
+[33m[2024-Jun-22 19:38:14.420 MST][m [37m[Thread ID: 25][m [94m[HomePage.searchProduct][m [36m[DEBUG][m search of Search - Samsung product is sucessful
+[33m[2024-Jun-22 19:38:14.426 MST][m [37m[Thread ID: 25][m [94m[HomePage.searchProduct][m [36m[DEBUG][m search of Samsung product is sucessful
+[33m[2024-Jun-22 19:38:14.639 MST][m [37m[Thread ID: 26][m [94m[PlaywrightFactory.getBrowserContext][m [32m[INFO][m Browser Context - Viewport Width '1280' and Height '720'

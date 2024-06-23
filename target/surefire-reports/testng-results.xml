@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-22T19:37:24 MST" name="Opencart Test Automation" finished-at="2024-06-22T19:38:18 MST" duration-ms="54573">
+    <groups>
+    </groups>
+    <test started-at="2024-06-22T19:37:24 MST" name="Opencart Registerpage Test" finished-at="2024-06-22T19:37:43 MST" duration-ms="18966">
+      <class name="com.testcases.TS_03_Verify_Opencart_RegisterPageTests">
+        <test-method is-config="true" signature="setUpBeforeTestSuite()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0]" started-at="2024-06-22T19:37:22 MST" name="setUpBeforeTestSuite" finished-at="2024-06-22T19:37:24 MST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestSuite -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0]" started-at="2024-06-22T19:37:24 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:35 MST" duration-ms="11409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_03_Verify_Opencart_RegisterPageTests.registerNewAccountTest()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0]" started-at="2024-06-22T19:37:35 MST" name="setUp" finished-at="2024-06-22T19:37:37 MST" duration-ms="1901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerNewAccountTest()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0]" started-at="2024-06-22T19:37:37 MST" name="registerNewAccountTest" finished-at="2024-06-22T19:37:43 MST" duration-ms="5366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewAccountTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0]" started-at="2024-06-22T19:37:43 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:43 MST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerNewAccountTest status=SUCCESS method=TS_03_Verify_Opencart_RegisterPageTests.registerNewAccountTest()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="tearDownAfterSuite()[pri:0, instance:com.testcases.TS_03_Verify_Opencart_RegisterPageTests@76908cc0]" started-at="2024-06-22T19:38:18 MST" name="tearDownAfterSuite" finished-at="2024-06-22T19:38:18 MST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterSuite -->
+      </class> <!-- com.testcases.TS_03_Verify_Opencart_RegisterPageTests -->
+    </test> <!-- Opencart Registerpage Test -->
+    <test started-at="2024-06-22T19:37:24 MST" name="Opencart Homepage Test" finished-at="2024-06-22T19:38:14 MST" duration-ms="50274">
+      <class name="com.testcases.TS_01_Verify_Opencart_HomePageTests">
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:24 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:30 MST" duration-ms="6228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.homePageTitleTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:30 MST" name="homePageTitleTest" finished-at="2024-06-22T19:37:30 MST" duration-ms="36" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your Store] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your Store] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.testcases.TS_01_Verify_Opencart_HomePageTests.homePageTitleTest(TS_01_Verify_Opencart_HomePageTests.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:30 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:31 MST" duration-ms="1013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageTitleTest status=FAILURE method=TS_01_Verify_Opencart_HomePageTests.homePageTitleTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:31 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:37 MST" duration-ms="5299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.homePageURLTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="homePageURLTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:37 MST" name="homePageURLTest" finished-at="2024-06-22T19:37:37 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageURLTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:37 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:37 MST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageURLTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.homePageURLTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:37 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:41 MST" duration-ms="3852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.navigateToRegisterPageTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="navigateToRegisterPageTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:41 MST" name="navigateToRegisterPageTest" finished-at="2024-06-22T19:37:45 MST" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterPageTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:45 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:46 MST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToRegisterPageTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.navigateToRegisterPageTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:46 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:49 MST" duration-ms="3629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.verifyOpenCartLogoTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="verifyOpenCartLogoTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:49 MST" name="verifyOpenCartLogoTest" finished-at="2024-06-22T19:37:49 MST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenCartLogoTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:49 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:49 MST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOpenCartLogoTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.verifyOpenCartLogoTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:49 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:53 MST" duration-ms="3154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.featuredSectioncardsCountTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="featuredSectioncardsCountTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:53 MST" name="featuredSectioncardsCountTest" finished-at="2024-06-22T19:37:53 MST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featuredSectioncardsCountTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:53 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:53 MST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=featuredSectioncardsCountTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.featuredSectioncardsCountTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:53 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:55 MST" duration-ms="2566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.navigateToLoginPageTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="navigateToLoginPageTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:55 MST" name="navigateToLoginPageTest" finished-at="2024-06-22T19:37:59 MST" duration-ms="3142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPageTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:59 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:59 MST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToLoginPageTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.navigateToLoginPageTest()[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:37:59 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:38:02 MST" duration-ms="3038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:02 MST" name="searchTest" data-provider="productData" finished-at="2024-06-22T19:38:04 MST" depends-on-methods="com.testcases.TS_01_Verify_Opencart_HomePageTests.navigateToRegisterPageTest" duration-ms="1924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:04 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:38:04 MST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:04 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:38:07 MST" duration-ms="2847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:07 MST" name="searchTest" data-provider="productData" finished-at="2024-06-22T19:38:08 MST" depends-on-methods="com.testcases.TS_01_Verify_Opencart_HomePageTests.navigateToRegisterPageTest" duration-ms="1604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:08 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:38:09 MST" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:09 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:38:12 MST" duration-ms="3398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:12 MST" name="searchTest" data-provider="productData" finished-at="2024-06-22T19:38:14 MST" depends-on-methods="com.testcases.TS_01_Verify_Opencart_HomePageTests.navigateToRegisterPageTest" duration-ms="1996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d]" started-at="2024-06-22T19:38:14 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:38:14 MST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=TS_01_Verify_Opencart_HomePageTests.searchTest(java.lang.String)[pri:0, instance:com.testcases.TS_01_Verify_Opencart_HomePageTests@7b227d8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+      </class> <!-- com.testcases.TS_01_Verify_Opencart_HomePageTests -->
+    </test> <!-- Opencart Homepage Test -->
+    <test started-at="2024-06-22T19:37:24 MST" name="Opencart Loginpage Test" finished-at="2024-06-22T19:38:18 MST" duration-ms="54573">
+      <class name="com.testcases.TS_02_Verify_Opencart_LoginPageTests">
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:24 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:35 MST" duration-ms="11396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.loginPageTitleTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:35 MST" name="setUp" finished-at="2024-06-22T19:37:37 MST" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:37 MST" name="loginPageTitleTest" finished-at="2024-06-22T19:37:37 MST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:37 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:37 MST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.loginPageTitleTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:37 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:42 MST" duration-ms="4162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.loginTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:42 MST" name="setUp" finished-at="2024-06-22T19:37:44 MST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:44 MST" name="loginTest" finished-at="2024-06-22T19:37:47 MST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:47 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:47 MST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.loginTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:47 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:51 MST" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.navigateToForgotPasswordPageTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:51 MST" name="setUp" finished-at="2024-06-22T19:37:52 MST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToForgotPasswordPageTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:52 MST" name="navigateToForgotPasswordPageTest" finished-at="2024-06-22T19:37:55 MST" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForgotPasswordPageTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:55 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:37:56 MST" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToForgotPasswordPageTest status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.navigateToForgotPasswordPageTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:56 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:37:58 MST" duration-ms="2664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.navigateToRegisterPageTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:37:58 MST" name="setUp" finished-at="2024-06-22T19:38:00 MST" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToRegisterPageTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:00 MST" name="navigateToRegisterPageTest" finished-at="2024-06-22T19:38:03 MST" duration-ms="3496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterPageTest -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:03 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:38:04 MST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToRegisterPageTest status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.navigateToRegisterPageTest()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:04 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:38:06 MST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.verifyLoginBreadCrumbExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:06 MST" name="setUp" finished-at="2024-06-22T19:38:08 MST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBreadCrumbExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:08 MST" name="verifyLoginBreadCrumbExists" finished-at="2024-06-22T19:38:08 MST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBreadCrumbExists -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:08 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:38:08 MST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginBreadCrumbExists status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.verifyLoginBreadCrumbExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:08 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:38:11 MST" duration-ms="3360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.verifyNewCustomerHeaderExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:11 MST" name="setUp" finished-at="2024-06-22T19:38:13 MST" duration-ms="1777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewCustomerHeaderExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:13 MST" name="verifyNewCustomerHeaderExists" finished-at="2024-06-22T19:38:13 MST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCustomerHeaderExists -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:13 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:38:13 MST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewCustomerHeaderExists status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.verifyNewCustomerHeaderExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+        <test-method is-config="true" signature="launchPlaywrightAndUrl(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:13 MST" name="launchPlaywrightAndUrl" finished-at="2024-06-22T19:38:16 MST" duration-ms="3129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TS_02_Verify_Opencart_LoginPageTests.verifyReturningCustomerHeaderExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPlaywrightAndUrl -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:16 MST" name="setUp" finished-at="2024-06-22T19:38:18 MST" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyReturningCustomerHeaderExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:18 MST" name="verifyReturningCustomerHeaderExists" finished-at="2024-06-22T19:38:18 MST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReturningCustomerHeaderExists -->
+        <test-method is-config="true" signature="closePageAndPwServer(org.testng.ITestResult)[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f]" started-at="2024-06-22T19:38:18 MST" name="closePageAndPwServer" finished-at="2024-06-22T19:38:18 MST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReturningCustomerHeaderExists status=SUCCESS method=TS_02_Verify_Opencart_LoginPageTests.verifyReturningCustomerHeaderExists()[pri:0, instance:com.testcases.TS_02_Verify_Opencart_LoginPageTests@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePageAndPwServer -->
+      </class> <!-- com.testcases.TS_02_Verify_Opencart_LoginPageTests -->
+    </test> <!-- Opencart Loginpage Test -->
+  </suite> <!-- Opencart Test Automation -->
+</testng-results>
