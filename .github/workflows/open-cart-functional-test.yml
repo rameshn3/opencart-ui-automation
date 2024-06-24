@@ -62,12 +62,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    services:
-      web:
-        image: nginx:latest
-        ports:
-          - 80:80
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
