@@ -81,13 +81,5 @@ jobs:
       run: |
         npm install -g playwright
 
-    - name: Wait for server to be ready
-      run: |
-        sudo apt-get install -y curl
-        until $(curl --output /dev/null --silent --head --fail http://localhost); do
-          echo 'Waiting for server...'
-          sleep 5
-        done
-
     - name: Run tests
       run: mvn test
