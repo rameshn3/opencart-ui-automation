@@ -63,7 +63,7 @@ private Logger log = LogManager.getLogger(LoginPage.class);
 	
 	private boolean isLogoutLinkVisible() {
 		page.click(myAccountMenu);
-		return page.locator(logoutLink).isVisible();
+		return page.locator(logoutLink).first().isVisible();
 	}
 	
 	public boolean doLogin(String username,String password) {
