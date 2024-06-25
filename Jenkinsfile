@@ -4,23 +4,10 @@ pipeline {
         maven 'Maven 3.9.6'
     }
     stages {
-        stage('Checkout') {
-            steps {
-                script {
-                    def branch = 'main'
-                    checkout([
-                        $class: 'GitSCM',
-                        branches: [[name: "*/${branch}"]],
-                        doGenerateSubmoduleConfigurations: false,
-                        extensions: [],
-                        userRemoteConfigs: [[url: 'https://github.com/rameshn3/opencart-ui-automation.git']]
-                    ])
-                }
-            }
-        }
         stage('Build') {
             steps {
-                sh "mvn -Dmaven.test.failure.ignore=true clean package"
+                git 'https://github.com/rameshn3/opencart-ui-automation.git'
+                bat 'mvn -Dmaven.test.failure.ignore=true clean package'
             }
             post {
                 success {
@@ -31,27 +18,18 @@ pipeline {
         }
         stage('Deploy to QA') {
             steps {
-                echo "Deploy to QA"
+                echo 'Deploy to QA'
             }
         }
-        stage('Regression Automation Test') {
+        stage('Regression automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    script {
-                        def branch = 'master'
-                        checkout([
-                            $class: 'GitSCM',
-                            branches: [[name: "*/${branch}"]],
-                            doGenerateSubmoduleConfigurations: false,
-                            extensions: [],
-                            userRemoteConfigs: [[url: 'https://github.com/rameshn3/opencart-ui-automation.git']]
-                        ])
-                    }
-                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng.xml"
+                    git 'https://github.com/rameshn3/opencart-ui-automation.git'
+                    bat 'mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng.xml'
                 }
             }
         }
-        stage('Publish Extent Report') {
+        stage('Publish Extent report') {
             steps {
                 publishHTML([
                     allowMissing: false,
