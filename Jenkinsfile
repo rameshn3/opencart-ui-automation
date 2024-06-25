@@ -9,7 +9,7 @@ pipeline {
             steps
             {
                  git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
+                bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post 
             {
@@ -32,7 +32,7 @@ pipeline {
         stage('Regression automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/rameshn3/opencart-ui-automation.git'
+                    git 'https://github.com/rameshn3/opencart-ui-automation'
                     bat 'mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng.xml'
                 }
             }
