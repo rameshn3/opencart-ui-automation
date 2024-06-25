@@ -55,7 +55,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{github.event.inputs.os}}
 
     steps:
     - name: Checkout repository
@@ -66,7 +66,9 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-
+        browser: ${{github.event.inputs.browser}}
+        enableTracing: ${{github.event.inputs.enableTracing}}
+        enableRecordVideo: ${{github.event.inputs.enableRecordVideo}}
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
