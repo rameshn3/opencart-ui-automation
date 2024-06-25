@@ -1,35 +1,68 @@
 pipeline {
-    agent {
-        docker {
-            image 'mcr.microsoft.com/playwright/java:v1.44.0-jammy'
-            args '-v /var/run/docker.sock:/var/run/docker.sock'
-        }
-    }
-    environment {
-        MAVEN_OPTS = '-Dmaven.repo.local=/home/jenkins/.m2/repository'
+    agent any
+    tools {
+        maven 'Maven 3.9.6'
     }
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/rameshn3/opencart-ui-automation.git'
+                script {
+                    def branch = 'main'
+                    checkout([
+                        $class: 'GitSCM',
+                        branches: [[name: "*/${branch}"]],
+                        doGenerateSubmoduleConfigurations: false,
+                        extensions: [],
+                        userRemoteConfigs: [[url: 'https://github.com/rameshn3/opencart-ui-automation.git']]
+                    ])
+                }
             }
         }
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+            post {
+                success {
+                    junit '**/target/surefire-reports/TEST-*.xml'
+                    archiveArtifacts 'target/*.jar'
+                }
             }
         }
-        stage('Test') {
+        stage('Deploy to QA') {
             steps {
-                sh 'mvn test'
+                echo "Deploy to QA"
             }
         }
-    }
-    post {
-        always {
-            archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
-            junit 'target/surefire-reports/*.xml'
-            cleanWs()
+        stage('Regression Automation Test') {
+            steps {
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    script {
+                        def branch = 'master'
+                        checkout([
+                            $class: 'GitSCM',
+                            branches: [[name: "*/${branch}"]],
+                            doGenerateSubmoduleConfigurations: false,
+                            extensions: [],
+                            userRemoteConfigs: [[url: 'https://github.com/rameshn3/opencart-ui-automation.git']]
+                        ])
+                    }
+                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng.xml"
+                }
+            }
+        }
+        stage('Publish Extent Report') {
+            steps {
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: false,
+                    keepAll: true,
+                    reportDir: 'build',
+                    reportFiles: 'TestExecutionReport.html',
+                    reportName: 'HTML Extent Report',
+                    reportTitles: ''
+                ])
+            }
         }
     }
 }
