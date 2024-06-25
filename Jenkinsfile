@@ -23,7 +23,8 @@ pipeline {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/rameshn3/opencart-ui-automation'
-                    bat 'mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng.xml'
+                    bat 'mvn -X clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng.xml'
+
                 }
             }
         }
