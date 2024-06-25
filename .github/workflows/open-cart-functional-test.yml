@@ -24,11 +24,6 @@ on:
         default: "chrome"
         required: false
 
-      selenium-grid-url:
-        description: "Selenium Grid URL (Required for headed mode execution, leave blank for headless mode)"
-        type: string
-        required: false
-
       enableRecordVideo:
         description: "Enable Video Recording"
         type: choice
