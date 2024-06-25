@@ -6,7 +6,7 @@ pipeline {
         }
     }
     environment {
-        MAVEN_OPTS = '-Dmaven.repo.local=.m2/repository'
+        MAVEN_OPTS = '-Dmaven.repo.local=/home/jenkins/.m2/repository'
     }
     stages {
         stage('Checkout') {
